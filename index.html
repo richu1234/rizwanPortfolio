@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link rel="icon" href="data:image/svg+xml,svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22>text y=%22.9em%22 font-size=%2290%22>🅡🅩/text>/svg>">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+<body class="bg-gradient-to-r from-indigo-400 via-purple-400 to-pink-400 min-h-screen">>
+
+  <!-- Navigation Bar -->
+  <header class="sticky top-0 z-50 bg-gradient-to-r from-indigo-400 via-purple-400 to-pink-400 shadow-md">
+    <nav class="flex items-center justify-between px-6 py-4">
+      <!-- Logo and Title -->
+      <div class="flex items-center gap-2">
+        <span class="text-white font-bold text-lg"> Rizwan's Portfolio</span>
+      </div>
+
+      <!-- Navigation Links -->
+      <div class="flex gap-6 text-white font-semibold text-sm md:text-base">
+        <a href="#about" class="hover:text-yellow-200 transition duration-200">About Me</a>
+        <a href="#skills" class="hover:text-yellow-200 transition duration-200">Skills</a>
+        <a href="#projects" class="hover:text-yellow-200 transition duration-200">Projects</a>
+        <a href="#contact" class="hover:text-yellow-200 transition duration-200">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+<!-- Main Section -->
+<section class="p-10 w-full px-6 md:px-12 shadow-md bg-gradient-to-r from-yellow-100 via-pink-100 to-purple-100">
+  <div class="flex items-center justify-between">
+    <!-- Left: Profile pic and text aligned horizontally -->
+    <div class="flex items-start gap-8 max-w-xl ml-16">
+      <img
+        src="https://i.ibb.co/Rp4D9yy7/1000003280.jpg"
+        alt="Profile Photo"
+        class="w-40 h-40 rounded-full object-cover border-4 border-gray-200 shadow-md mt-1"
+      />
+      <div class="text-left mt-2">
+        <p class="text-lg text-gray-700 font-medium">Hello I am</p>
+        <h1 class="text-4xl font-bold mb-1">RIZWAN RAZIK</h1>
+        <p class="text-gray-600 text-lg">Aspiring Web Developer</p>
+        <p class="text-gray-500 text-sm">Learning Tailwind, Bootstrap & building responsive sites.</p>
+      </div>
+    </div>
+
+    <!-- Right: Buttons and social icons aligned horizontally with text end -->
+  <div class="flex flex-col items-start space-y-3 ml-8 md:ml-0 md:mr-16">
+
+
+
+      <a
+        href="/path/to/your-cv.pdf"
+        download
+        class="bg-blue-600 text-white px-5 py-2 rounded-md font-semibold shadow-md transition-transform duration-300 hover:scale-105 hover:bg-blue-700"
+      >
+        Download CV
+      </a>
+
+      <div class="flex space-x-6 mt-1">
+        <!-- LinkedIn Icon -->
+        <a href="https://www.linkedin.com/in/rizwan-razik-544b55364?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+           target="_blank"
+           rel="noopener noreferrer"
+           aria-label="LinkedIn"
+           class="text-gray-700 hover:text-blue-700 transition-transform transform duration-300 hover:scale-125">
+          <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.761 0 5-2.239 5-5v-14c0-2.761-2.239-5-5-5zm-11 19h-3v-10h3v10zm-1.5-11.25c-.966 0-1.75-.784-1.75-1.75s.784-1.75 1.75-1.75 1.75.784 1.75 1.75-.784 1.75-1.75 1.75zm13.5 11.25h-3v-5.5c0-1.379-1.121-2.5-2.5-2.5s-2.5 1.121-2.5 2.5v5.5h-3v-10h3v1.236c.688-1.025 2.042-1.736 3.5-1.736 2.206 0 4 1.794 4 4v6.5z"/>
+          </svg>
+        </a>
+
+        <!-- GitHub Icon -->
+        <a href="https://github.com/richu1234"
+           target="_blank"
+           rel="noopener noreferrer"
+           aria-label="GitHub"
+           class="text-gray-700 hover:text-gray-900 transition-transform transform duration-300 hover:scale-125">
+          <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M12 .5C5.648.5.5 5.648.5 12c0 5.098 3.292 9.419 7.867 10.958.575.106.785-.25.785-.557 0-.275-.01-1-.016-1.963-3.2.697-3.877-1.544-3.877-1.544-.523-1.33-1.276-1.686-1.276-1.686-1.043-.713.08-.698.08-.698 1.153.08 1.76 1.184 1.76 1.184 1.025 1.756 2.69 1.249 3.345.955.104-.743.401-1.25.73-1.537-2.553-.29-5.237-1.277-5.237-5.683 0-1.256.448-2.283 1.183-3.089-.119-.29-.513-1.459.112-3.04 0 0 .964-.309 3.158 1.178a11.035 11.035 0 0 1 2.876-.388c.976.004 1.957.132 2.876.388 2.193-1.487 3.155-1.178 3.155-1.178.627 1.581.233 2.75.115 3.04.738.806 1.182 1.833 1.182 3.089 0 4.42-2.688 5.39-5.25 5.673.413.354.783 1.05.783 2.116 0 1.528-.014 2.76-.014 3.135 0 .31.208.67.792.555C20.71 21.415 24 17.09 24 12 24 5.648 18.352.5 12 .5z"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+  <!-- About Section -->
+  <section id="about" class="p-10 mt-6 bg-gradient-to-r from-red-300 via-purple-300 to-yellow-200 w-full px-6 md:px-12 shadow-md text-center pt-20">
+    <h2 class="text-2xl font-semibold mb-4">About Me</h2>
+    <p class="text-gray-800 max-w-4xl mx-auto text-justify leading-relaxed px-4 md:px-0">
+  I am Rizwan Razik, a passionate 12th-grade graduate from Kerala who is deeply motivated to become a web developer. Ever since I started exploring the world of technology, I have been fascinated by how websites and applications are built, and this curiosity has driven me to pursue a career in web development.
+
+  Currently, I am a student actively learning the skills and tools necessary to create modern, responsive, and engaging websites. I spend my time mastering HTML, CSS, and JavaScript, and I am eager to dive deeper into popular frameworks like Bootstrap, Tailwind CSS, and React.
+
+  My journey into web development began with simple projects and experimentation. As I progressed, I realized that coding is not just a skill but a creative outlet where I can bring ideas to life. I enjoy solving problems, building user-friendly interfaces, and continuously improving my craft.
+
+  Being from Kerala, a place known for its rich culture and education, I am proud of my roots and the opportunities I have had so far. I consider myself fortunate to have access to resources and communities that support my learning and growth.
+
+  As a trainee at Bridgeon, I am gaining real-world experience and understanding how development projects are managed professionally. This exposure has helped me appreciate teamwork, discipline, and effective communication.
+
+  I am committed to turning my passion into a lifelong career. My goal is to become a brilliant developer who not only writes clean, efficient code but also contributes positively to the technology community.
+
+  I understand that the tech field is ever-evolving, so I am always eager to learn new technologies and keep up with the latest trends. Continuous learning is the cornerstone of my approach.
+
+  Beyond coding, I enjoy collaborating with others, sharing knowledge, and participating in coding challenges that push my limits. These experiences have built my confidence and sharpened my skills.
+
+  I believe that perseverance, dedication, and a growth mindset are key to success in web development. I embrace challenges as opportunities to learn and improve.
+
+  In the near future, I hope to build impressive projects that solve real problems and impact users positively. I want to create websites and applications that are not only functional but also aesthetically pleasing and accessible.
+
+  Ultimately, my vision is to become a respected and innovative web developer, known for delivering quality work and continuously striving for excellence.
+
+  This journey is just beginning, and I am excited for the road ahead. With each step, I get closer to achieving my dreams and making a meaningful contribution to the tech world.
+
+  Thank you for taking the time to learn a little about me. I look forward to connecting and collaborating on exciting projects.
+
+  Together, we can create the future of the web.
+</p>
+
+  </section>
+
+ <!-- Skills Section -->
+<section id="skills" class="p-12 mt-8 bg-gradient-to-r from-blue-300 via-cyan-200 to-purple-200 w-full px-6 md:px-12 shadow-md text-center pt-20">
+<h2 class="text-3xl font-semibold mb-8">
+  My <span class="text-indigo-800">Skills</span>
+</h2>
+
+</h2>
+  <div class="grid grid-cols-1 sm:grid-cols-3 gap-10 justify-items-center">
+    <!-- HTML -->
+    <div class="flex flex-col items-center p-6 shadow-md rounded-lg transform transition duration-300 hover:scale-105 bg-white/30">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" class="w-24 h-24 mb-3" />
+      <p class="text-lg font-medium text-gray-900">HTML</p>
+    </div>
+    <!-- CSS -->
+    <div class="flex flex-col items-center p-6 shadow-md rounded-lg transform transition duration-300 hover:scale-105 bg-white/30">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" class="w-24 h-24 mb-3" />
+      <p class="text-lg font-medium text-gray-900">CSS</p>
+    </div>
+    <!-- JavaScript -->
+    <div class="flex flex-col items-center p-6 shadow-md rounded-lg transform transition duration-300 hover:scale-105 bg-white/30">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" class="w-24 h-24 mb-3" />
+      <p class="text-lg font-medium text-gray-900">JavaScript</p>
+    </div>
+  </div>
+</section>
+
+
+
+  <!-- Projects Section -->
+<section id="projects" class="p-10 mt-6 bg-gradient-to-r from-cyan-300 via-green-200 to-yellow-200 w-full px-6 md:px-12 shadow-md text-center pt-20">
+<h2 class="text-3xl font-semibold mb-8"> My Project</h2>
+  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-6 justify-items-center">
+
+    <!-- Project 1 -->
+    <div class="rounded-xl shadow-md p-4 w-full max-w-sm transform transition-transform duration-300 hover:scale-105 hover:shadow-lg
+                bg-gradient-to-r from-cyan-300 via-green-200 to-yellow-200
+                text-gray-900">
+      <img src="https://i.ibb.co/DP6BcTwj/easemytrip.png" alt="Project 1" class="rounded-md object-cover w-full h-40 mb-3" />
+      <h3 class="font-semibold text-lg">Project 1</h3>
+      <p class="text-sm font-sans">Website cloning</p>
+    </div>
+
+    <!-- Project 2 -->
+    <div class="rounded-xl shadow-md p-4 w-full max-w-sm transform transition-transform duration-300 hover:scale-105 hover:shadow-lg
+                bg-gradient-to-r from-cyan-300 via-green-200 to-yellow-200
+                text-gray-900">
+      <img src="https://i.ibb.co/0RHX31tb/Screenshot-2025-05-21-121220.png" alt="Project 2" class="rounded-md object-cover w-full h-40 mb-3" />
+      <h3 class="font-semibold text-lg">Project 2</h3>
+      <p class="text-sm font-sans">Navigation bar</p>
+    </div>
+
+    <!-- Project 3 -->
+    <div class="rounded-xl shadow-md p-4 w-full max-w-sm transform transition-transform duration-300 hover:scale-105 hover:shadow-lg
+                bg-gradient-to-r from-cyan-300 via-green-200 to-yellow-200
+                text-gray-900">
+      <img src="https://i.ibb.co/7xkWPsQV/Screenshot-2025-05-21-121237.png" alt="Project 3" class="rounded-md object-cover w-full h-40 mb-3" />
+      <h3 class="font-semibold text-lg">Project 3</h3>
+      <p class="text-sm font-sans">Application Form</p>
+    </div>
+
+    <!-- Project 4 -->
+    <div class="rounded-xl shadow-md p-4 w-full max-w-sm transform transition-transform duration-300 hover:scale-105 hover:shadow-lg
+                bg-gradient-to-r from-cyan-300 via-green-200 to-yellow-200
+                text-gray-900">
+      <img src="https://i.ibb.co/hR8GFmCz/Screenshot-2025-05-22-091023.png" alt="Project 4" class="rounded-md object-cover w-full h-40 mb-3" />
+      <h3 class="font-semibold text-lg">Project 4</h3>
+      <p class="text-sm font-sans">Time Table</p>
+    </div>
+
+  </div>
+</section>
+
+
+
+<section id="contact" class="p-10 mt-6 w-full px-6 md:px-12 shadow-md text-center pt-20 bg-gradient-to-r from-yellow-100 via-pink-100 to-purple-100">
+  <h2 class="text-2xl font-semibold mb-4">Contact Me</h2>
+  <form id="contact-form" class="max-w-xl mx-auto text-left">
+    <input type="text" id="name" placeholder="Your Name" class="w-full mb-4 p-2 border border-gray-300 rounded-md" required />
+    <input type="email" id="email" placeholder="Your Email" class="w-full mb-4 p-2 border border-gray-300 rounded-md" required />
+    <textarea id="message" placeholder="Your Message" class="w-full mb-4 p-2 border border-gray-300 rounded-md" rows="5" required></textarea>
+    <button type="submit" class="bg-blue-500 hover:bg-blue-600 transition-colors duration-300 text-white px-6 py-2 rounded-md">
+      Send
+    </button>
+  </form>
+</section>
+
+<script>
+  document.getElementById("contact-form").addEventListener("submit", function(event) {
+    event.preventDefault();
+
+    const name = document.getElementById("name").value;
+    const email = document.getElementById("email").value;
+    const message = document.getElementById("message").value;
+
+    const mailtoLink = `mailto:rizwanrazik684@gmail.com?subject=Message from ${encodeURIComponent(name)}&body=${encodeURIComponent(message)}%0AFrom: ${encodeURIComponent(email)}`;
+    
+    window.location.href = mailtoLink;
+  });
+</script>
+</body>
+</html>
